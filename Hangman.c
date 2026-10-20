@@ -1,21 +1,25 @@
 #include <stdio.h>
 
+
 int main()
 {
-    //"X = secret"
-    //"Y = guess"
-
     const char secret = 'X';
-    const char guess = 'Y';
+    char guess;
+
+    printf("\nGib ein Buchstabe ein: ");
+    if (scanf(" %c", &guess) != 1)
+    {
+        printf("\nUngueltige Eingabe\n");
+    }
 
     if (guess == secret)
     {
-        printf("Win!!!");
+        printf("\nWin!!!\n");
     }
     else
     {
-        printf("Fail...");
-    }
-
+        printf("\nFail...\n");
+    };
+    
     return 0;
 }
