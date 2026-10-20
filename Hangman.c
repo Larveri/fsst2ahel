@@ -2,7 +2,20 @@
 
 int main()
 {
-    printf("\nHallo Welt\n");
+    //"X = secret"
+    //"Y = guess"
+
+    const char secret = 'X';
+    const char guess = 'Y';
+
+    if (guess == secret)
+    {
+        printf("Win!!!");
+    }
+    else
+    {
+        printf("Fail...");
+    }
 
     return 0;
-};
+}
