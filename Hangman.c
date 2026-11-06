@@ -62,8 +62,6 @@ int main()
 
         fails += (hits == 0);
 
-    /*if (hits == 0)
-    fails++;*/
     }
 
     return 0;
