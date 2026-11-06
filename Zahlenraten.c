@@ -1,25 +1,26 @@
-#include <stdio.h>
+#include <stdio.h>     //include(import), stdio = standard input output
 
-int main()
+int main()             //main = funktion, int für: "return 0;"
 {
-    int K = 10;
-    int v;
-    int L = 0;
-    printf("\nReferenzzahl K = 10\n");
-    printf("\nGib eine Zahl ein : ");
+    int K = 10;         //Konstante Referenzzahl K
+    int v;              //variable ganze zahl
+    int u = 0;          //u: integer variable (u: ungültige Zahl), entweder 1 oder 0 also gleich wie boolean
+
+    printf("\nReferenzzahl K = 10\n");          //schreibt Referenzzahl
+    printf("\nGib eine Zahl ein: ");           //hier muss eine Zahl eingegeben werden (v)
     
-    if (scanf("%d", &v) != 1)
+    if (scanf("%d", &v) != 1)                //
     {
         printf("\nDas ist keine gueltige Zahl!!!\n");
-        L = 0;
+        u = 0;
     }
 
     else
     {
-        L = 1;
+        u = 1;
     };
 
-    if (L == 1)
+    if (u == 1)
     {
         if (v < K)
         {
