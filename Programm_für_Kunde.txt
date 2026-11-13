@@ -1,0 +1,22 @@
+Mein Auftrag: Das „Drachenherz“-Lager-Tool
+Ich brauche ein einfaches Programm, das auf meinem Computer (ich nutze Windows, aber es sollte einfach über das Terminal/die Eingabeaufforderung laufen) ausgeführt werden kann. Es soll mir helfen, den Überblick über unsere wichtigsten Artikel zu behalten.
+
+Was das Programm unbedingt können muss:
+Artikel anzeigen (Liste):
+Ich möchte auf einen Blick sehen, welche Artikel aktuell im System sind – mit Namen, Preis und wie oft sie noch auf Lager sind.
+
+Neuen Artikel hinzufügen:
+Wenn eine neue Lieferung reinkommt, möchte ich via Tastatur einen neuen Artikel eingeben können (Name, Stückzahl, Preis).
+
+Nach Artikeln suchen:
+Wenn ein Kunde an der Kasse steht und wissen will, ob wir Spiel XY da haben, tippt man den Namen ein und das Programm spuckt mir aus, ob es da ist und was es kostet.
+
+Start über die Konsole:
+Mir wurde gesagt, dass man beim Starten des Programms direkt eine Datei übergeben können soll (also so was wie lager.exe inventar.txt). Keine Ahnung, wie du das machst, aber das klang für meinen Kumpel total wichtig, damit die Daten nicht jedes Mal weg sind.
+
+Meine Wünsche als „schwieriger“ Kunde:
+Bitte keine grafischen Fenster mit bunten Knöpfen. Ein einfaches Textfenster in Schwarz-Weiß reicht völlig, solange man sich in einem Menü mit Zahlen (z. B. 1 für Liste, 2 für neu etc.) durchklicken kann.
+
+Es muss idiotensicher sein. Wenn ich mich vertippe und einen Buchstaben statt einer Zahl eingebe, soll das Programm nicht direkt abstürzen.
+
+Klingt das für dich machbar? Wie gehen wir jetzt vor? Sag mir einfach, wann du Zeit hast, die ersten Fragen zu stellen oder mir einen Entwurf zu zeigen!
