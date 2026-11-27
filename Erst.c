@@ -6,8 +6,9 @@ int strlen(char *wort)
     int sz = 0;
     for (; wort[sz] != '\0'; sz++)
     {
-        return sz;
+        
     }
+    return sz;
 }
 
 void dump(char *wort)
@@ -21,7 +22,7 @@ void dump(char *wort)
 
 char* init(int sz, char c)
 {
-    char *wort = malloc(sz + 1);
+    char *wort = malloc(sizeof(char)*sz + 1);
     for (int i = 0; i < sz; i++)
     {
         wort[i] = c;
@@ -30,14 +31,31 @@ char* init(int sz, char c)
     return wort;
 }
 
+int check(char *wort1, char *wort2, char c)
+{
+    for (int i = 0; wort1[i] != '\0'; i++)
+    {
+        if (c == wort1[i])
+        {
+            wort2[i] = c;
+        }
+    }
+    return 0;
+}
+
 int main()
 {
-    char *wort = "WORT";
-    char *wort2 = init(strlen(wort), '?');
+    char *wort1 = "WORT";
+    char *wort2 = init(strlen(wort1), '_');
 
     dump(wort2);
+    check(wort1, wort2, 'O');
+    dump(wort2);
+
     free(wort2);
 
     return 0;
 }
+
+
 
