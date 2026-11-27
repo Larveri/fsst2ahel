@@ -33,6 +33,10 @@ char* init(int sz, char c)
 
 int check(char *wort1, char *wort2, char c)
 {
+    if (strlen(wort1) == 0 || strlen(wort1) != strlen(wort2))
+    {
+        return -1;
+    }
     for (int i = 0; wort1[i] != '\0'; i++)
     {
         if (c == wort1[i])
